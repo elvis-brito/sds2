@@ -1,7 +1,12 @@
+import './styles.css'
+import StepsHeader from "./StepsHeader";
+
 export default function Orders() {
     return (
-        <div>
-            <h1>Orders</h1>
+        <>
+        <div className="orders-container">
+            <StepsHeader />
         </div>
+        </>
     )
 }

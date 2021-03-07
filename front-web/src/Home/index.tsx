@@ -1,3 +1,4 @@
+import Footer from '../Footer';
 import { ReactComponent as MainImage } from './main.svg';
 import './styles.css'
 
@@ -18,6 +19,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }
